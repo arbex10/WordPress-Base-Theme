@@ -23,6 +23,7 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
+<<<<<<< HEAD
     
   <header id="header">
     <div class="container">
@@ -32,3 +33,6 @@
       </div>
     </div>
   </header>
+=======
+    
+>>>>>>> 1564f44b51cb8fc116fbe2af4a489350929bca20
