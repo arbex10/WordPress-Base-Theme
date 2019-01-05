@@ -32,13 +32,22 @@
           <h2 class="site-description"><?php bloginfo('description'); ?></h2>
         </div>
       </div>
-      <div class="row header-navigation">
-        <nav class="navbar-nav" role="navigation">
-          <?php wp_nav_menu('header-menu'); ?>
-        </nav>
+      <nav class="row navbar">
+        <div class="nav-menu" role="navigation">
+          <?php 
+            wp_nav_menu(
+              array(
+                'theme_location' => 'header-menu',
+                'container' => false,
+                'menu_class' => 'nav menu',
+                'fallback_cb' => fallbackCreate()
+              )
+            ); 
+          ?>
+        </div>
         <div class="header-search">
           <?php get_search_form(); ?>
         </div>
-      </div>
+      </nav>
     </div>
   </header>

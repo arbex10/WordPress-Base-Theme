@@ -4,6 +4,19 @@ body {
 	font-size: 'Roboto', sans-serif;
 }
 
+*, body, footer, header, h1, h2, h3, h4, h5, h6, p, ul, li, ul li {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	line-height: 1.25;
+}
+
 .nopadding {
 	padding: 0px;
 }
@@ -12,32 +25,30 @@ body {
 	margin: 0px;
 }
 
+.center {
+	text-align: center;
+}
+
 .header {
 	margin-bottom: 20px;
 }
 
 .header-content {
 	border-bottom: 1px solid #eeeeee;
-	padding: 20px 0px 12px 0px;
+	padding: 20px 0px;
 }
 
 .site-title {
 	font-size: 35px;
 	font-weight: 400;
+	margin-bottom: .5rem;
 }
 
 .site-description {
 	font-size: 18px;
 	font-weight: 300;
 	font-style: italic;
-}
-
-.header-navigation {
-	margin-top: 20px;
-	padding: 10px 15px;
-	border: 1px solid #e7e7e7;
-	border-radius: 5px;
-	justify-content: space-between;
+	margin-bottom: 0rem;
 }
 
 .menu ul {
@@ -50,11 +61,28 @@ body {
 	display: inline-block;
 }
 
-.navbar-nav {
+.navbar {
 	align-self: center;
+	padding: 1rem 0rem;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .form-group {
 	margin-bottom: 0px;
 	display: inline-block;
+}
+
+footer {
+	background-color: #eeeeee;
+	padding: 1rem 0rem;
+}
+
+.fallback-create {
+	color: #777;
+}
+
+.fallback-create:hover,
+.fallback-create:focus {
+	color: #333;
+	text-decoration: none;
 }
