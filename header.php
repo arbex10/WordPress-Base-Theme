@@ -23,7 +23,8 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    
+  
+  <!-- Starting here, you can change everything you want -->  
   <header class="header">
     <div class="container">
       <div class="row header-content">
