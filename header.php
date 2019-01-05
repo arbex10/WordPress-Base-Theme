@@ -24,11 +24,21 @@
   </head>
   <body <?php body_class(); ?>>
     
-  <header id="header">
+  <header class="header">
     <div class="container">
-      <div class="row">
-        <h1><?php bloginfo('name'); ?></h1>
-        <h2><?php bloginfo('description'); ?></h2>
+      <div class="row header-content">
+        <div class="col-sm-12 nopadding">
+          <h1 class="site-title"><a href="<?=home_url()?>"><?php bloginfo('name'); ?></a></h1>
+          <h2 class="site-description"><?php bloginfo('description'); ?></h2>
+        </div>
+      </div>
+      <div class="row header-navigation">
+        <nav class="navbar-nav" role="navigation">
+          <?php wp_nav_menu('header-menu'); ?>
+        </nav>
+        <div class="header-search">
+          <?php get_search_form(); ?>
+        </div>
       </div>
     </div>
   </header>

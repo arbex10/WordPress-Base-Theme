@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+	font-size: 'Roboto', sans-serif;
+}
+
+.nopadding {
+	padding: 0px;
+}
+
+.nomargin {
+	margin: 0px;
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.header-content {
+	border-bottom: 1px solid #eeeeee;
+	padding: 20px 0px 12px 0px;
+}
+
+.site-title {
+	font-size: 35px;
+	font-weight: 400;
+}
+
+.site-description {
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.header-navigation {
+	margin-top: 20px;
+	padding: 10px 15px;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+	justify-content: space-between;
+}
+
+.menu ul {
+	margin-bottom: 0px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.navbar-nav {
+	align-self: center;
+}
+
+.form-group {
+	margin-bottom: 0px;
+	display: inline-block;
+}
