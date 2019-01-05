@@ -8,11 +8,9 @@ get_header(); ?>
 <div id="primary" class="container">
   <main id="front-page" class="row">
 
-    <?php while ( have_posts() ) : the_post(); ?>
+    <!-- Edit your HTML here -->
 
-      <?php get_template_part('content', 'page'); ?>
-
-    <?php endwhile; ?>
+    
 
   </main>
 </div>
