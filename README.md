@@ -1,3 +1,3 @@
 # WordPress Blank Theme
 
-The perfect blank structure for you develop your custom themes
+The perfect blank structure to develop your custom themes
