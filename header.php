@@ -24,31 +24,12 @@
   </head>
   <body <?php body_class(); ?>>
   
-  <!-- Starting here, you can change everything you want -->  
-  <header class="header">
-    <div class="container">
-      <div class="row header-content">
-        <div class="col-sm-12 nopadding">
-          <h1 class="site-title"><a href="<?=home_url()?>"><?php bloginfo('name'); ?></a></h1>
-          <h2 class="site-description"><?php bloginfo('description'); ?></h2>
-        </div>
-      </div>
-      <nav class="row navbar">
-        <div class="nav-menu" role="navigation">
-          <?php 
-            wp_nav_menu(
-              array(
-                'theme_location' => 'header-menu',
-                'container' => false,
-                'menu_class' => 'nav menu',
-                'fallback_cb' => fallbackCreate()
-              )
-            ); 
-          ?>
-        </div>
-        <div class="header-search">
-          <?php get_search_form(); ?>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <!-- Possible functions to use here:
+
+  bloginfo('name');
+  bloginfo('description');
+  wp_nav_menu();
+  get_search_form();
+
+  START FROM HERE
+  -->
