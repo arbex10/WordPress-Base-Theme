@@ -24,7 +24,8 @@
   </head>
   <body <?php body_class(); ?>>
   
-  <!-- Possible functions to use here:
+  <!--
+  Possible functions to use here:
 
   bloginfo('name');
   bloginfo('description');

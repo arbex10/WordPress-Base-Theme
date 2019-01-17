@@ -1,6 +1,8 @@
   <footer class="footer">
   	<div class="container center">
-  	  <p>© 2019 - WordPress Base Theme</p>
+  	  
+  	  <!-- EDIT FROM HERE -->
+
   	</div>
   </footer>
 
