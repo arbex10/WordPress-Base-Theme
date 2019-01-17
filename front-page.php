@@ -15,6 +15,10 @@ get_header(); ?>
   </main>
 </div>
 
+<?php
+/* Uncomment this if you want to use a sidebar here
+ * get_sidebar();
+ */
+?>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
